@@ -1,0 +1,10 @@
+
+read.csv("rodpump_failure.csv")
+rod_pump = read.csv("rodpump_failure.csv")
+summary(rod_pump)
+View(rod_pump)
+hist(rod_pump$AVG_OIL_VOLUME)
+hist(rod_pump$AVG_LIQUID_VOLUME)
+hist(rod_pump$AVG_WATER_VOLUME)
+hist(rod_pump$AVG_DIFFERENTIAL_PRESSURE)
+hist(rod_pump$AVG_DIFFERENTIAL_PRESSURE)
